@@ -118,9 +118,11 @@
                         
                             <li><a href="/works">菜品</a></li>
                         
-                            <li><a href="/about">打尖</a></li>
+                            <li><a href="/about">关于</a></li>
                         
-                            <li><a href="/FrontEndGuide">菜单</a></li>
+                            <li><a href="/tags">标签</a></li>
+                        
+                            <li><a href="/archives">归档</a></li>
                         
                         </ul>
                     </nav>
@@ -199,9 +201,11 @@
                 
                     <li><a href="/works">菜品</a></li>
                 
-                    <li><a href="/about">打尖</a></li>
+                    <li><a href="/about">关于</a></li>
                 
-                    <li><a href="/FrontEndGuide">菜单</a></li>
+                    <li><a href="/tags">标签</a></li>
+                
+                    <li><a href="/archives">归档</a></li>
                 
                 <div class="clearfix"></div>
                 </ul>
@@ -441,8 +445,8 @@
 
     <script>
         $(document).ready(function() {
-            var backgroundnum = 24;
-            var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+            var backgroundnum = 109;
+            var backgroundimg = "url(/background/bg-" + backgroundnum +".jpg)";
             $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
             $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
         })
